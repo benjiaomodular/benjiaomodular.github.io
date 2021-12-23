@@ -203,7 +203,7 @@ blockquote p:last-child {
 
 img {
   display: block;
-  margin: 0 0 1rem;
+  margin: 0 0 2rem;
   border-radius: 5px;
   max-width: 100%;
 }
