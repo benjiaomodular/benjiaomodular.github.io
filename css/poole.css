@@ -304,7 +304,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 1em;
+  margin-bottom: 2.5em;
 }
 
 /* Blog post or page title */
@@ -316,14 +316,47 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin-top: 0;
+  margin-right: 1em;
 }
 
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
   margin-bottom: 1rem;
   color: #757575;
+}
+
+.post-summary {
+  line-height: 1.2em;
+  margin-bottom: 0.15rem;
+}
+
+.post-tag {
+  color:  #9f9f9f;
+  margin-right:  0.1em;
+  font-size:  0.7em;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: baseline;
+  background-color: #e8e8e8;
+  background-image: none;
+  padding: 0.4em 0.6em;
+  color: rgba(0,0,0,.6);
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 0 solid transparent;
+  border-radius: 0.28571429rem;
+  -webkit-transition: background .1s ease;
+  transition: background .1s ease;
+}
+
+.list-post-date {
+  display: block;
+  font-size:  0.7em;
+  font-weight: 600;
+  margin-right:  0.1em;
+  color: rgba(0,0,0,.6);
 }
 
 /* Related posts */
