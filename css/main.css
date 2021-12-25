@@ -198,6 +198,10 @@ img {
   margin-bottom: 2.5em;
 }
 
+.post h1 {
+  margin-bottom: 0.2rem;
+}
+
 /* Blog post or page title */
 .page-title,
 .post-title,
