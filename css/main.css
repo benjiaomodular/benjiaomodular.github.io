@@ -80,7 +80,7 @@ body {
   color: #fff;
   margin-top: 0;
   font-family: 'Exo 2', sans-serif;
-  font-size:  1.85rem;
+  font-size:  1.9rem;
   margin-bottom: 0;
 }
 
@@ -278,6 +278,10 @@ img {
 }
 
 @media (max-width: 48em) {
+  .sidebar-about h1 {
+    font-size:  1.6rem;
+  }
+
   main.content.container {
     padding-top: 1em;
   }
@@ -291,5 +295,15 @@ img {
     width: 100%;
     height: 120px;
     overflow: hidden;
+  }
+
+  .sidebar-copyright {
+    display: none;
+  }
+}
+
+@media (max-width: 25em) {
+  .sidebar-about h1 {
+    font-size:  1.4rem;
   }
 }
