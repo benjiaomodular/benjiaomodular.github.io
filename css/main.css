@@ -1,0 +1,294 @@
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
+
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+}
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #fff;
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "American Typewriter", serif;
+  font-size:  1.85rem;
+  margin-bottom: 0;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 2.5rem;
+}
+.sidebar-nav-item {
+  display: block;
+}
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
+
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+
+/*
+ *                        ___
+ *                       /\_ \
+ *  _____     ___     ___\//\ \      __
+ * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
+ * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
+ *  \ \ ,__/\ \____/\ \____//\____\ \____\
+ *   \ \ \/  \/___/  \/___/ \/____/\/____/
+ *    \ \_\
+ *     \/_/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/poole.
+ */
+
+
+/*
+ * Contents
+ *
+ * Body resets
+ * Custom type
+ * Messages
+ * Container
+ * Masthead
+ * Posts and pages
+ * Pagination
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Body resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #515151;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+img {
+  display: block;
+  margin: 0 0 2rem;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.lead {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.45rem;
+  margin-bottom: 2.4rem;
+}
+
+.sidebar-copyright {
+  font-size:  0.7rem;
+}
+
+.page,
+.post {
+  margin-bottom: 2.5em;
+}
+
+/* Blog post or page title */
+.page-title,
+.post-title,
+.post-title a {
+  color: #303030;
+}
+.page-title,
+.post-title {
+  margin-top: 0;
+  margin-right: 1em;
+}
+
+.posts .post-date {
+  display: block;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  color: #757575;
+}
+
+.post-summary {
+  line-height: 1.2em;
+  margin-bottom: 0.15rem;
+}
+
+.posts .post-tag {
+  color:  #9f9f9f;
+  margin-right:  0.1em;
+  font-size:  0.7em;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: baseline;
+  background-color: #e8e8e8;
+  background-image: none;
+  padding: 0.4em 0.6em;
+  color: rgba(0,0,0,.6);
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 0 solid transparent;
+  border-radius: 0.28571429rem;
+  -webkit-transition: background .1s ease;
+  transition: background .1s ease;
+}
+
+.posts .post-date {
+  display: block;
+  font-size:  0.7em;
+  font-weight: 600;
+  margin-top: 0.1em;
+  margin-right:  0.1em;
+  margin-bottom: 0;
+  color: rgba(0,0,0,.6);
+}
+
+.posts .post-thumbnail {
+  margin-right: .8em;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.posts .post-thumbnail img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (min-width: 58em) {
+  .posts .post-row {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+}
+
+@media (max-width: 48em) {
+  main.content.container {
+    padding-top: 1em;
+  }
+
+  .posts .post-contents {
+    margin-top: 0.5em;
+  }
+
+  .posts .post-thumbnail {
+    margin-right: .8em;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+  }
+}

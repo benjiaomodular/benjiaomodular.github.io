@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -79,16 +79,14 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "American Typewriter", serif;
-  font-size:  1.85rem;
-  margin-bottom: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
-  margin-bottom: 2.5rem;
 }
 .sidebar-nav-item {
   display: block;
@@ -249,30 +247,4 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
-}
-
-.list-post-row {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-}
-
-.list-post-thumbnail {
-  margin-right: .8em;
-  width: 200px;
-  height: 150px;
-  overflow: hidden;
-}
-
-.list-post-thumbnail img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-}
-
-.list-post-contents {
 }
