@@ -315,6 +315,9 @@ img {
 
 /* Figures */
 figure.article-figure  {
-  margin-right:  0;
-  margin-left:  0;
+  margin: 0 0 1.1rem;
+}
+
+img.article-image {
+  margin: 0;
 }
