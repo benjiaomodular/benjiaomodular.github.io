@@ -278,6 +278,7 @@ img {
 }
 
 @media (max-width: 48em) {
+
   .sidebar-about h1 {
     font-size:  1.6rem;
   }
@@ -303,7 +304,17 @@ img {
 }
 
 @media (max-width: 25em) {
+  html,body {
+    font-size: 16px;
+  }
+
   .sidebar-about h1 {
     font-size:  1.4rem;
   }
+}
+
+/* Figures */
+figure.article-figure  {
+  margin-right:  0;
+  margin-left:  0;
 }
