@@ -303,7 +303,7 @@ img {
   }
 }
 
-@media (max-width: 25em) {
+@media (max-width: 20em) {
   html,body {
     font-size: 16px;
   }
