@@ -233,11 +233,15 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   font-weight: 300;
+  line-height: 1.45rem;
+  margin-bottom: 2.4rem;
 }
 
-
+.sidebar-copyright {
+  font-size:  0.7rem;
+}
 /*
  * Messages
  *
