@@ -198,7 +198,7 @@ img {
   margin-bottom: 2.5em;
 }
 
-.post h1 {
+.post h1, .module-list-header {
   margin-bottom: 0.8rem;
   line-height: 2.5rem;
 }
@@ -215,16 +215,19 @@ img {
   margin-right: 1em;
 }
 
-.post-date {
-  margin-bottom: 2rem;
+.single.post .post-date {
+  margin-bottom: 0.5rem;
 }
 
+.single.post .tag-section {
+  margin-bottom: 2.5rem;
+}
 .post-summary {
   line-height: 1.2em;
   margin-bottom: 0.15rem;
 }
 
-.posts .post-tag {
+.post-tag {
   color:  #9f9f9f;
   margin-right:  0.1em;
   font-size:  0.7em;
@@ -299,9 +302,9 @@ img {
     overflow: hidden;
   }
 
-  .sidebar-copyright {
+/*  .sidebar-copyright {
     display: none;
-  }
+  }*/
 }
 
 @media (max-width: 20em) {
@@ -320,5 +323,31 @@ figure.article-figure  {
 }
 
 img.article-image {
+  margin: 0;
+}
+
+.socials-nav-container {
+  display: block;
+  margin-bottom: 0;
+}
+.socials-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  list-style: none;
+}
+
+.socials-nav li {
+  float:  left;
+  margin-right: 0.2rem;
+}
+
+.socials-nav li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;  
+}
+
+.socials-nav-img {
   margin: 0;
 }
