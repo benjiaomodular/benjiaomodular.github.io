@@ -356,3 +356,12 @@ img.article-image {
     margin-top: 2.3rem;
     margin-bottom: 2.3rem;
 }
+
+.tag-page h3 {
+  text-transform:  capitalize;
+  margin-bottom: 2rem;
+}
+.tag-page .posts {
+  list-style: none;
+  padding-inline-start: 0;
+}
