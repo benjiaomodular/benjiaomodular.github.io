@@ -215,16 +215,19 @@ img {
   margin-right: 1em;
 }
 
-.post-date {
-  margin-bottom: 2rem;
+.single.post .post-date {
+  margin-bottom: 0.4rem;
 }
 
+.single.post .tag-section {
+  margin-bottom: 2.5rem;
+}
 .post-summary {
   line-height: 1.2em;
   margin-bottom: 0.15rem;
 }
 
-.posts .post-tag {
+.post-tag {
   color:  #9f9f9f;
   margin-right:  0.1em;
   font-size:  0.7em;
