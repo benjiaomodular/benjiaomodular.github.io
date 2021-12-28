@@ -364,3 +364,7 @@ img.article-image {
   list-style: none;
   padding-inline-start: 0;
 }
+
+.paypal-donate-form {
+  padding-top: 0.5rem;
+}
