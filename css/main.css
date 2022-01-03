@@ -203,15 +203,19 @@ img {
   line-height: 2.5rem;
 }
 
-.single.post h1,
+.single.post h1 {
+  margin-top: 4rem;
+  font-size: 35px;
+}
+
 .single.post h2,
-.single.post h3,
-.single.post h4 {
-  margin-top: 2rem;
+.single.post h3{
+  margin-top: 2.5rem;
 }
 
 .single.post .title {
   margin-top: 1rem;
+  font-size: 40px;
 }
 
 /* Blog post or page title */
