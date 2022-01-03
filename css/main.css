@@ -261,6 +261,11 @@ img {
   transition: background .1s ease;
 }
 
+.post-tag-draft {
+  color: #E5DDCB ;
+  background: #CF4647;
+}
+
 .posts .post-date {
   display: block;
   font-size:  0.7em;
