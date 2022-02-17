@@ -208,12 +208,11 @@ img {
   line-height: 2.5rem;
 }
 
-.single.post h1 {
+.single.post h1, .single.post h2 {
   margin-top: 4rem;
   font-size: 35px;
 }
 
-.single.post h2,
 .single.post h3{
   margin-top: 2.5rem;
 }
@@ -418,4 +417,12 @@ p + ul, p + ol, p + dl {
 table {
   margin-top: -1rem;
   margin-bottom: 2rem;
+}
+
+.toc {
+  margin: 3rem 0 3rem;
+}
+
+.toc ul {
+  margin-bottom: 0;
 }
