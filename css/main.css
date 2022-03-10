@@ -417,8 +417,12 @@ p + ul, p + ol, p + dl {
 table {
   margin-top: -1rem;
   margin-bottom: 2rem;
+  /*font-size:  16px;*/
 }
 
+.bom-table {
+  margin-top: 1rem;
+}
 .toc {
   margin: 3rem 0 3rem;
 }
