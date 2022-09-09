@@ -451,3 +451,36 @@ table {
 .disclaimer .disclaimer-title {
   font-weight: 800;
 }
+
+.card {
+  background-color: #eee;
+  color: #444;
+  padding: 0.2rem 1rem;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.cards h1 {
+  color: #111;
+  font-size: 26px;
+  margin-bottom: -10px;
+}
+
+.cards p {
+  margin-bottom: 1rem;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 1200px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
