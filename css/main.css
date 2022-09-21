@@ -106,6 +106,10 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
+.sidebar .ko-fi-button {
+  margin-bottom: 2.5rem;
+}
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
